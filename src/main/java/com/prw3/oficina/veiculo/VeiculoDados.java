@@ -1,3 +1,18 @@
 package com.prw3.oficina.veiculo;
 
-public record VeiculoDados (String marca, String modelo, String ano) {}
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+
+public record VeiculoDados (
+
+        @NotBlank
+        String marca,
+
+        @NotBlank
+        String modelo,
+
+        @Pattern(regexp = "^\\d{4}$")
+        String ano,
+
+        String cor
+        ) {}

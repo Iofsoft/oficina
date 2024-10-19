@@ -1,0 +1,258 @@
+GET http://localhost:8080/conserto
+Accept: application/json
+
+###
+
+GET http://localhost:8080/conserto/resumo
+Accept: application/json
+
+###
+
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "18/10/2024",
+  "dataSaida": "25/10/2024",
+  "mecanicoDados": {
+    "nome": "Vagabundo Jones",
+    "experiencia": 1
+  },
+  "veiculoDados": {
+    "marca": "Pagani",
+    "modelo": "Zonda",
+    "ano" : "2011",
+    "cor" : "Azul"
+  }
+}
+###
+
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "18/10/2024",
+  "dataSaida": "25/10/2024",
+  "mecanicoDados": {
+    "nome": "Jovem da Silva",
+    "experiencia": 2
+  },
+  "veiculoDados": {
+    "marca": "Ford",
+    "modelo": "Maverick",
+    "ano" : "1976",
+    "cor" : "Amarelo"
+  }
+}
+
+###
+
+// Requisição 1
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "01/10/2024",
+  "dataSaida": "05/10/2024",
+  "mecanicoDados": {
+    "nome": "Carlos Mendes",
+    "experiencia": 5
+  },
+  "veiculoDados": {
+    "marca": "Ferrari",
+    "modelo": "F8 Tributo",
+    "ano": "2020",
+    "cor": "vermelho"
+  }
+}
+###
+
+// Requisição 2
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "02/10/2024",
+  "dataSaida": "06/10/2024",
+  "mecanicoDados": {
+    "nome": "Ana Souza",
+    "experiencia": 3
+  },
+  "veiculoDados": {
+    "marca": "Lamborghini",
+    "modelo": "Huracán",
+    "ano": "2021",
+    "cor": "amarelo"
+  }
+}
+###
+
+
+// Requisição 3
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "03/10/2024",
+  "dataSaida": "07/10/2024",
+  "mecanicoDados": {
+    "nome": "João Silva",
+    "experiencia": 4
+  },
+  "veiculoDados": {
+    "marca": "Porsche",
+    "modelo": "911 Turbo",
+    "ano": "2022",
+    "cor": "azul"
+  }
+}
+###
+
+
+// Requisição 4
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "04/10/2024",
+  "dataSaida": "08/10/2024",
+  "mecanicoDados": {
+    "nome": "Roberto Lima",
+    "experiencia": 6
+  },
+  "veiculoDados": {
+    "marca": "McLaren",
+    "modelo": "720S",
+    "ano": "2021",
+    "cor": "laranja"
+  }
+}
+###
+
+
+// Requisição 5
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "05/10/2024",
+  "dataSaida": "09/10/2024",
+  "mecanicoDados": {
+    "nome": "Julia Santos",
+    "experiencia": 2
+  },
+  "veiculoDados": {
+    "marca": "Bugatti",
+    "modelo": "Chiron",
+    "ano": "2020",
+    "cor": "preto"
+  }
+}
+###
+
+
+// Requisição 6
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "06/10/2024",
+  "dataSaida": "10/10/2024",
+  "mecanicoDados": {
+    "nome": "Marcos Rocha",
+    "experiencia": 7
+  },
+  "veiculoDados": {
+    "marca": "Aston Martin",
+    "modelo": "DB11",
+    "ano": "2019",
+    "cor": "verde"
+  }
+}
+###
+
+
+// Requisição 7
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "07/10/2024",
+  "dataSaida": "11/10/2024",
+  "mecanicoDados": {
+    "nome": "Fernanda Costa",
+    "experiencia": 3
+  },
+  "veiculoDados": {
+    "marca": "Koenigsegg",
+    "modelo": "Agera RS",
+    "ano": "2018",
+    "cor": "prata"
+  }
+}
+###
+
+
+// Requisição 8
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "08/10/2024",
+  "dataSaida": "12/10/2024",
+  "mecanicoDados": {
+    "nome": "Ricardo Almeida",
+    "experiencia": 4
+  },
+  "veiculoDados": {
+    "marca": "Pagani",
+    "modelo": "Huayra",
+    "ano": "2017",
+    "cor": "branco"
+  }
+}
+###
+
+
+// Requisição 9
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "09/10/2024",
+  "dataSaida": "13/10/2024",
+  "mecanicoDados": {
+    "nome": "Sofia Lima",
+    "experiencia": 5
+  },
+  "veiculoDados": {
+    "marca": "Nissan",
+    "modelo": "GT-R",
+    "ano": "2023",
+    "cor": "azul"
+  }
+}
+###
+
+
+// Requisição 10
+POST http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "dataEntrada": "10/10/2024",
+  "dataSaida": "14/10/2024",
+  "mecanicoDados": {
+    "nome": "Lucas Ferreira",
+    "experiencia": 6
+  },
+  "veiculoDados": {
+    "marca": "Lotus",
+    "modelo": "Evija",
+    "ano": "2022",
+    "cor": "amarelo"
+  }
+}
+
+
+

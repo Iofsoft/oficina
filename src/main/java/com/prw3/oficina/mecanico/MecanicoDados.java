@@ -1,3 +1,10 @@
 package com.prw3.oficina.mecanico;
 
-public record MecanicoDados(String nome, int experiencia) {}
+import jakarta.validation.constraints.NotBlank;
+
+public record MecanicoDados(
+        @NotBlank
+        String nome,
+
+        int experiencia
+        ) {}

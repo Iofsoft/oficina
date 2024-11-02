@@ -8,12 +8,35 @@ Accept: application/json
 
 ###
 
+GET http://localhost:8080/conserto/5
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/conserto/2
+
+###
+
+PUT http://localhost:8080/conserto
+Content-Type: application/json
+
+{
+  "id": 1,
+  "dataSaida": "01/11/2024",
+  "mecanicoDados":{
+    "nome": "Jovem da Silva Sauro",
+    "experiencia": 2
+  }
+}
+
+###
+
 POST http://localhost:8080/conserto
 Content-Type: application/json
 
 {
-  "dataEntrada": "18/10/2024",
-  "dataSaida": "25/10/2024",
+  "dataEntrada": "01/11/2024",
+  "dataSaida": "25/12/2024",
   "mecanicoDados": {
     "nome": "Vagabundo Jones",
     "experiencia": 1

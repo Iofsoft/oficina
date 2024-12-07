@@ -1,7 +1,8 @@
-package com.prw3.oficina.conserto;
+package com.prw3.oficina.model;
 
 import com.prw3.oficina.mecanico.Mecanico;
-import com.prw3.oficina.veiculo.Veiculo;
+import com.prw3.oficina.record.ConsertoDados;
+import com.prw3.oficina.record.ConsertoDadosUpdate;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

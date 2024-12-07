@@ -1,4 +1,6 @@
-package com.prw3.oficina.conserto;
+package com.prw3.oficina.record;
+
+import com.prw3.oficina.model.Conserto;
 
 public record ConsertoResumo(Long id,
                              String dataEntrada,

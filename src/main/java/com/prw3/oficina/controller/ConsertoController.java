@@ -1,6 +1,11 @@
 package com.prw3.oficina.controller;
 
-import com.prw3.oficina.conserto.*;
+import com.prw3.oficina.repository.*;
+import com.prw3.oficina.model.Conserto;
+import com.prw3.oficina.record.ConsertoDados;
+import com.prw3.oficina.record.ConsertoDadosUpdate;
+import com.prw3.oficina.record.ConsertoDetalhes;
+import com.prw3.oficina.record.ConsertoResumo;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +23,7 @@ import java.util.Optional;
 public class ConsertoController {
 
     @Autowired
-    private ConsertoRepository repository;
+    private IConsertoRepository repository;
 
     @PostMapping
     @Transactional

@@ -1,5 +1,6 @@
-package com.prw3.oficina.veiculo;
+package com.prw3.oficina.model;
 
+import com.prw3.oficina.record.VeiculoDados;
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

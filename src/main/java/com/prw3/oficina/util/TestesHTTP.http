@@ -54,10 +54,10 @@ POST http://localhost:8080/conserto
 Content-Type: application/json
 
 {
-  "dataEntrada": "18/10/2024",
-  "dataSaida": "25/10/2024",
+  "dataEntrada": "18/10/2027",
+  "dataSaida": "25/10/20278",
   "mecanicoDados": {
-    "nome": "Jovem da Silva",
+    "nome": "Jovem da Silva Jones",
     "experiencia": 2
   },
   "veiculoDados": {

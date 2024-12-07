@@ -1,6 +1,5 @@
 package com.prw3.oficina.record;
 
-import com.prw3.oficina.mecanico.MecanicoDados;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;

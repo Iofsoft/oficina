@@ -1,6 +1,5 @@
 package com.prw3.oficina.model;
 
-import com.prw3.oficina.mecanico.Mecanico;
 import com.prw3.oficina.record.ConsertoDados;
 import com.prw3.oficina.record.ConsertoDadosUpdate;
 import jakarta.persistence.*;

@@ -1,7 +1,7 @@
 package com.prw3.oficina.record;
 
 import com.prw3.oficina.model.Conserto;
-import com.prw3.oficina.mecanico.Mecanico;
+import com.prw3.oficina.model.Mecanico;
 import com.prw3.oficina.model.Veiculo;
 
 public record ConsertoDetalhes(Long id,

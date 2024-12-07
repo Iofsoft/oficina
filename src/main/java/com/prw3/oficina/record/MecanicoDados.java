@@ -1,4 +1,4 @@
-package com.prw3.oficina.mecanico;
+package com.prw3.oficina.record;
 
 import jakarta.validation.constraints.NotBlank;
 

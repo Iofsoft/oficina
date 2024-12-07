@@ -1,5 +1,6 @@
-package com.prw3.oficina.mecanico;
+package com.prw3.oficina.model;
 
+import com.prw3.oficina.record.MecanicoDados;
 import jakarta.persistence.Embeddable;
 import lombok.*;
 
